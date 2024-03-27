@@ -1,0 +1,131 @@
+/* Univeral Styling */
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the body */
+body { 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px; 
+}
+
+/* Styling the header content */
+
+header, main, footer { 
+    max-width: 640px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #cccccc;
+}
+
+.navbar { 
+    display: flex; 
+    justify-content:space-between;
+    align-items: center;
+}
+.brand { 
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar > h1 {
+    color: white; 
+    font-size: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    
+}
+.nav-menu li { 
+    display: none;
+}
+.nav-menu li a { 
+    display: block;
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+}
+#menu { 
+    display: block;
+    color: white; 
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu::before { 
+    content: "≡";
+}
+.mobile {
+    display: block;
+    text-align: center;
+}
+
+.mobile li { 
+    display: none;
+    margin: 1rem;
+    
+}
+
+
+
+.mobile li a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    
+
+}
+main { 
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+section { 
+    background: #eee;
+    padding: 1rem;
+}
+
+#menu.activate::before {
+    content: "X";
+}
+
+.activate li {
+    display: block;
+}
+
+.activate li:nth-child(1) {
+    margin-top: 1px solid white;
+}
+.activate .mobile { 
+    border-top: 1px solid white;
+}
+
+@media(min-width:600px) { 
+   
+    .nav-menu { 
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    .nav-menu li { 
+        display: block;
+    }
+    #menu { 
+        display: none;
+    }
+    main { 
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}

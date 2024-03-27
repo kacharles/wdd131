@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    background-color: 1px solid black;
+    color: white; 
+    background-color: maroon;
+    width: 90%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row { 
+    width:100%;
+}
+@media (min-width: 1200px) {
+    .col-lg-4 {
+        float: left;
+        border: 1px solid green;
+    }
+    .col-lg-4 {
+        width: 25%;
+         
+    }
+}
+@media (min-width: 950px) and (max-width: 1199px) {
+    .col-md-6 {
+        float: left;
+        border: 1px solid green;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+}
+h1 { 
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+* { 
+    box-sizing: border-box;
+}
+
+div { 
+    width: 30%; 
+    height: 150px; 
+    background-color: grey;
+    color: white; 
+}
+
+div span { 
+    position: relative;
+    top: 0px; 
+    left: 0px;
+    width: 100px; 
+    text-align: center;
+    clear: both;
+    float: right;
+    background-color: red;
+}
+div  p {
+    width: 90%;
+    margin: auto;
+    margin-left: auto; 
+
+}
+@media (min-width:1200px) { 
+    .col-lg-4 { 
+        float: left;
+        border: 2px solid black;
+    }
+    .col-lg-4 {
+        width: 33%; 
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1199px) { 
+    .col-md-6 { 
+        float: left; 
+        background-color: 2px solid black;
+    }
+    .col-md-6 { 
+        width: 50%; 
+    }
+    .col-md-12 { 
+        width: 100%;
+    }
+}
