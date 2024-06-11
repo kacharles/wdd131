@@ -1,0 +1,99 @@
+/* Global Styling */
+
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling the header */
+header { 
+    background: blue;
+}
+nav { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 2rem;
+}
+nav h1 { 
+    color: white; 
+    font-size: 24;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem;
+    min-height: 500px;
+    background: url('../images/lib-stock-1200.webp') no-repeat;
+    
+}
+.card { 
+    /* border: 2px solid rgba(0,0,0.0); */
+    margin: 2rem;
+    display: flex;
+    /* background-color: #eee; */
+    
+}
+.card1 {
+    color: black;
+    align-content: start;
+    justify-content: start;
+}
+.card2 {  
+    align-content: end;
+    justify-content: end;
+    margin: 2rem;
+}
+.card h1 { 
+    width: 75%;
+    color: white; 
+    background-color: blue;
+    margin-left: -0.5rem;
+    padding: 0.5rem;
+    /* padding: 1rem; */
+    margin-top: 0.8rem;
+    opacity: .9;
+}
+.card .data {
+     width: 250px;
+     height: 250px;
+    background: white;
+    opacity: .8;
+    color: black;
+    
+}
+.card .wdata { 
+    background: white;
+    border: 1px solid black;
+    align-self: end;
+    height: 150px;
+    width: 250px;
+    opacity: .8;
+    color: black;
+}
+.card ul {
+    list-style: none;
+    /* text-align: center; */
+    margin-top: 1rem;
+}
+.card li { 
+    display: block;
+}
+.data, .wdata { 
+    margin: 2rem;
+}
+
+footer { 
+    display: grid;
+    align-content: center;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    min-height: 3rem;
+    font-size: 16px;
+    font-weight: bold;
+}

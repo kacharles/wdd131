@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root { 
+    --header-bg-color: #222; 
+    --navbar-link-color: #fff; 
+    --heading-color: #fff;
+    --content-label-color: #000; 
+    --branding-font: 'Roboto', san-serif;
+    --footer-bg-color: #222; 
+    --footer-content-color: #fff;
+}
+
+* { 
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+header { 
+    max-width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; 
+    background: var(--header-bg-color);
+    color: var(--heading-color);
+    padding: 25px; 
+    box-shadow: 0 0 30px #333;
+}
+header h1 { 
+    font-size: 1.5em;
+    font-family: var(--branding-font);
+    text-transform: uppercase;
+
+header nav { 
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+nav ul { 
+    display: flex; 
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+ul a { 
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: var(--navbar-link-color);
+    font-size: 1.5em; 
+    text-transform: uppercase;
+}
+
+ul a:hover { 
+    text-decoration: underline;
+    color: aqua;
+}
+
+

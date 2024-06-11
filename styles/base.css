@@ -1,0 +1,217 @@
+/* General Styling */
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* styling the header */
+
+header { 
+    background-color: blue;
+    min-height: 50px;
+}
+
+.brand-div { 
+    display: flex;
+    min-height: 4rem;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: #000080;
+    
+}
+.brand-div a { 
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.brand-div .title { 
+    font-size: 18px;
+    font-weight: bold;
+}
+.brand-div .dash { 
+    color: white;
+}
+.brand-div .brand { 
+    font-size: 16px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.navbar { 
+    
+    background-color: black;
+}
+.nav-menu { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 3rem;   
+}
+.nav-menu li { 
+    list-style: none;
+}
+.nav-menu li a { 
+    color: white; 
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+/* End of header Styling */
+
+/* Styling the body and the main content */
+main { 
+    min-height: 20rem;
+    display: grid;
+    grid-template-columns: 1.5fr 0.8fr;
+    gap: 1rem;
+    margin:2rem;
+}
+
+/* Styling section elemennt class name card */
+.card { 
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.card h1 {
+    display: flex;
+    justify-content: center;
+    min-height: 3rem;
+    border-radius: 5px;
+    align-items: center;
+    color: white;
+    background-color: #000080;
+}
+.card p {
+    line-height: 1.5rem;
+}
+.card img { 
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #000080;
+    
+}
+
+/* Styling a div in the first section element with class name about */
+.about { 
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 2rem;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card h2 { 
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.1);
+    margin: 2rem;
+    
+}
+.country {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 2rem;
+    gap: 10px;
+}
+.country-flag p { 
+    display: block;
+    text-align: center;
+    margin: 1rem;
+    
+}
+.card1  {
+    display: grid;
+
+}
+
+.card1 .resources {
+    display: flex;
+}
+.card1 h1 {
+    max-height: 3rem;
+}
+
+
+    
+    
+.card .menu-list{ 
+    display: block;
+    list-style: none;
+}
+.menu-list li {
+ margin: 1rem;
+}
+.card .resources {
+    align-content: center;
+    
+}
+.menu-list li a{
+    text-decoration: none;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    opacity: 0.5;
+    margin: 2rem;
+    border-radius: 10px;
+}
+.child { 
+    height: 50px;
+    width: 100px;
+    background: red;
+    opacity: .9;
+    margin-left: -1rem;
+}
+
+/* 
+nav { 
+    background-color: steelblue;
+    padding: 10px; 
+}
+
+nav a { 
+    display: block;
+    color: white; 
+    padding: 20px; 
+} 
+
+h1 { 
+    color: steelblue;
+}
+
+img { 
+    width: 200px; 
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px; 
+    box-shadow: 0 0 30px gray;
+} 
+
+p {
+    padding: 10px; 
+} */
+
+footer { 
+    display: grid;
+    min-height: 5rem;
+    justify-content: center;
+    background-color: #000080; 
+    text-align: center; 
+}
+.copyright { 
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.last-modify { 
+    color: yellow;
+}
+
+    
