@@ -17,8 +17,7 @@
 	font-size: 16px;
 }
 .mob-menu li a:hover { 
-	color: #000080; 
-	background: white;
+	text-decoration: underline;
 }
 
 .mob-menu li:nth-child(1) {
