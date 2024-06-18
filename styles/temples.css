@@ -136,4 +136,14 @@ footer {
 	main { 
 		border: 2px solid rgba(00, 00, 80, 0.4)
 	}
+
+	footer { 
+		background-color: #000080;
+		display: grid;
+		grid-template-columns: 1fr;
+		align-items: center;
+		justify-items: center;
+		min-height: 8rem;
+		color: white;
+	}
 }
