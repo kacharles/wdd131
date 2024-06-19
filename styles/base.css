@@ -169,6 +169,13 @@ main {
     margin-left: -1rem;
 }
 
+.show li { 
+    display: block;
+}
+.show hr { 
+    display: block;
+}
+
 /* 
 nav { 
     background-color: steelblue;
@@ -213,5 +220,10 @@ footer {
 .last-modify { 
     color: yellow;
 }
+
+/* Media Queries Small Screen */
+
+
+ 
 
     

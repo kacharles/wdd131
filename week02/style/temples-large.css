@@ -29,6 +29,7 @@
 .show li { 
 	display: block;
 }
+
 @media screen and (min-width: 40em) { 
 	
 	.nav-menu { 
@@ -43,6 +44,8 @@
 	.nav-menu li a { 
 		text-align: center;
 
+	}
+	
 	}
 	#menu { 
 		display: none;
