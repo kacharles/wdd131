@@ -147,3 +147,10 @@ footer {
 		color: white;
 	}
 }
+
+@media screen and (min-width: 39rem){
+	footer { 
+		background-color: red;
+		color: black;
+	}
+}
