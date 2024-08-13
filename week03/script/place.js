@@ -87,6 +87,7 @@ const weather = {
     }
 }
 
+
 area.textContent = data.area;
 pop.textContent = data.population;
 cap.textContent = data.capital;
@@ -100,6 +101,22 @@ temperature.textContent = weather.temperature;
 conditions.textContent = weather.condition;
 wind.textContent = weather.wind;
 wChill.textContent = weather.windChill(weather.temperature, weather.wind);
+
+const toggleBtn = document.querySelector("#toggle-menu"); 
+const mobileMenu = document.querySelector(".mobile-menu"); 
+
+toggleBtn.addEventListener("click", () => { 
+    toggleBtn.classList.toggle("show");
+    mobileMenu.classList.toggle("show"); 
+});
+const navlinks = document.querySelector(".mobile-menu"); 
+navlinks.addEventListener("click", () => { 
+    toggleBtn.classList.remove("show");
+    navlinks.classList.remove("show");
+    
+})
+
+
 
 lmf = document.querySelector("#lmf");
 lmf.textContent = document.lastModified;

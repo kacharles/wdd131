@@ -6,30 +6,43 @@
     <meta name="author" content="Charles Alfred Koenig">
     <meta name="description" content="This webpage provides a bit of informatio about Liberia">
     <link rel="stylesheet" href="/week03/styles/place.css" >
+    <link rel="stylesheet" href="/week03/styles/place-large.css">
     <script src="/week03/script/place.js" defer ></script>
     <title>Liberia</title>
 </head>
 <body>
     
 <header>
-    <nav>
-        <h1>Liberia</h1>
+    <div class="brand">
+        <a href="#" class="brand-name">Liberia</a>
+    </div>
+
+    <nav class="navbar">
+        <a href="#" id="toggle-menu"></a>
+        <ul class="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Resources</a></li>
+        </ul>
     </nav>
 </header>
+<ul class="mobile-menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Resources</a></li>
+</ul>
 
-<!-- <div class="main main-content">
-    <picture>
-        <source srcset="images/lib-stock-768.webp"
-        media="min-width: 768px">
-        <source srcset="images/lib-stock-992.webp"
-         media="min-width: 992px">
-         <source media="min-width: 1200px"
-        srcset="images/lib-stock-1200.webp" >
-        <img src="images/lib-stock-500.webp" alt="Liberia" >
-    </picture>
-   
-</div> -->
 <main class="main main-content">
+    <div class="hero">
+        <picture>
+            <source media="(min-width: 1000px)" srcset="images/hero-large.webp" >
+            <source media="(min-width: 500px)"  srcset="images/hero-medium.webp" >
+            <img src="images/hero-small.webp" alt="Elephant Image" width="500" height="250">
+        </picture>
+    </div>
+    <div class="hero-content">
     <section class="card card1">
         <div class="data">
             <h1>Data</h1>
@@ -48,7 +61,7 @@
 
     <section class="card card2">
         <div class="wdata">
-            <h1>Weather</h1>
+                <h1>Weather <img src="images/sunnyz_weather_icon.svg" alt="Sunny sunnyz_weather_icon" height="50" width="40"></h1>
             <ul class="wdata-menu">
                 <li>Temperature: <span class="temp">Value</span></li>
                 <li>Conditions: <span class="cond">Value</span></li>
@@ -57,6 +70,7 @@
             </ul>
         </div>
     </section>
+    </div>
 
 </main>
     
