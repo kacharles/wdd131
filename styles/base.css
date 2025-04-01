@@ -100,7 +100,7 @@ main {
     grid-template-columns: 2fr 1fr;
     margin: 2rem;
     justify-content: center;
-    gap: 10px;
+    column-gap: 10px;
 }
 
 .card h2 { 
@@ -112,9 +112,9 @@ main {
 }
 .country {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     margin: 2rem;
-    gap: 10px;
+    column-gap: 10px;
 }
 .country-flag p { 
     display: block;
@@ -130,6 +130,7 @@ main {
      /* margin-top: 50%;
      margin-bottom: 50%; */
      padding-top: 10rem;
+     padding-bottom: 10rem;
 }    
 .card .menu-list{ 
     display: block;

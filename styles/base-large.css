@@ -13,9 +13,14 @@
     align-items: center;
     justify-content: start;
     text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .mobile-menu li { 
     display: none;
+    flex: 1 1 100%;
+    width: 100%;
+    text-align: center;
 }
 
 .mobile-menu li a { 
@@ -26,10 +31,14 @@
     align-self: center;
     font-size: 16px;
     font-weight: bold;
+    padding: 1rem;
+    display: block;
+   
 
 }
 .mobile-menu li a:hover { 
     text-decoration: underline;
+    background-color: rgba(0, 0, 128)
 }
 .show li { 
     display: block;
@@ -66,7 +75,10 @@
         grid-row: 1/2;
         margin: 0 auto;
     }
-    
+    .card1 .resources { 
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
 }
 
 @media (max-width: 40em) { 
