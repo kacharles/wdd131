@@ -58,5 +58,56 @@
         </div>
 
     </footer>
+    <script>
+        const DAYS = 6; 
+        const LIMIT = 30; 
+        const StudentReport = [11, 42, 33, 64, 29, 37, 44]; 
+        function forloop() { 
+               // for loop 
+        for(i=0;i<StudentReport.length;i++) { 
+            if(StudentReport[i]<LIMIT) { 
+                console.log(StudentReport[i]);  
+            }
+        }
+
+        }
+     
+        function whileloop() { 
+            //while loop
+        let i = 0; 
+        while(i<StudentReport.length) { 
+            if(StudentReport[i] < LIMIT) { 
+                console.log(StudentReport[i]);
+            }
+        }
+
+        }
+
+        function forEach() { 
+            StudentReport.forEach(function (item) { 
+            if(item < LIMIT)  {
+                console.log(item); 
+            }
+        })
+        }
+        
+        
+        function forIn() { 
+             //for...in loop
+        for (let i in StudentReport) { 
+            if(StudentReport[i] < LIMIT) { 
+                console.log(studentReport[i]);
+            }
+        }
+
+        }
+      
+        forloop();
+        // forloop();
+        // whileloop();
+       
+      
+    
+    </script>
 </body>
 </html>

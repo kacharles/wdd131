@@ -20,12 +20,6 @@
 	text-decoration: underline;
 }
 
-.mob-menu li:nth-child(1) {
-	margin-top: 15px;
-}
-.mob-menu li:nth-child(6) {
-	margin-bottom: 15px;
-}
 .show li { 
 	display: block;
 }
@@ -47,8 +41,6 @@
 	}
 	
 	}
-	#menu { 
-		display: none;
-	}
+
 
 

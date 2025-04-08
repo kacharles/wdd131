@@ -10,6 +10,10 @@ header, main {
 	margin: 0 auto;
 }
 
+main { 
+	max-width: 1500px;
+}
+
 header { 
 	display: flex; 
 	justify-content: space-between;
@@ -97,12 +101,35 @@ footer {
 		gap: 1rem;
 		padding: 1.5rem;
 		max-width: 900px;
-		border: 2px solid rgba(00, 00, 80, 0.4);
+		/* border: 3px solid rgba(0, 0, 0, 0.1); */
 		margin-top: 1rem;
 		margin-bottom: 1rem;
-		
+		border-radius: 10px;
 		
 	}
+	#menu { 
+		display: none;
+	}
+
+	main figure img { 
+		width: 100%; 
+		height: auto;
+		object-fit: cover;
+		border-top-right-radius: 15px;
+		border-top-left-radius: 15px;
+	}
+	figcaption { 
+		text-align: center;
+		background-color: #000080;
+		color: white;
+		font-weight: bold;
+		margin-top: -0.3rem;
+		border-bottom-right-radius: 15px;
+		border-bottom-left-radius: 15px;
+		padding: 0.5rem;
+	}
+
+	
 	.navbar a:hover { 
 		text-decoration: underline;
 	}
@@ -118,6 +145,7 @@ footer {
 }
 @media screen and (max-width: 40em) {
 	
+	
 	main {
 		display: grid;
 		grid-template-columns: 1fr;
@@ -127,15 +155,37 @@ footer {
 		padding: 1.5rem;
 		max-width: 500px;
 	}
+	.mob-menu li { 
+		display: flex;
+		flex: 1 1 00%;
+		width: 100%;
+	}
+	.mob-menu li a { 
+		padding: 0.75rem;
+		text-align: center;
+	}
+	.mob-menu li a:hover { 
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+	main figure img { 
+		width: 100%; 
+		height: auto;
+		object-fit: cover;
+		border-top-right-radius: 15px;
+		border-top-left-radius: 15px;
+	}
 	figcaption { 
 		text-align: center;
 		background-color: #000080;
 		color: white;
 		font-weight: bold;
+		margin-top: -0.3rem;
+		border-bottom-right-radius: 15px;
+		border-bottom-left-radius: 15px;
+		padding: 0.5rem;
 	}
-	main { 
-		border: 2px solid rgba(00, 00, 80, 0.4)
-	}
+	
+	
 }
 
 @media screen and (max-width: 39rem) { 
