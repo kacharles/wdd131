@@ -53,11 +53,15 @@ ul a {
     color: var(--navbar-link-color);
     font-size: 1.5em; 
     text-transform: uppercase;
+    flex: 1 1 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
 }
 
 ul a:hover { 
     text-decoration: underline;
     color: aqua;
+    background-color: rgba(225, 225, 225, 0.5);
 }
 
 
