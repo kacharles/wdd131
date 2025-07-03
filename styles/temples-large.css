@@ -32,6 +32,10 @@
 		/* justify-content: space-between; */
 		/* gap: 20px; */
 	}
+	main h2 {
+		text-align: center;
+		padding: 0.543rem;
+	}
 	.nav-menu li { 
 		display: block;
 		flex: 100%;

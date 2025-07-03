@@ -264,6 +264,7 @@ footer {
 		gap: 1rem;
 		padding: 1.5rem;
 		max-width: 900px;
+		margin: 0 auto;
 		/* border: 3px solid rgba(0, 0, 0, 0.1); */
 		margin-top: 1rem;
 		margin-bottom: 1rem;
@@ -272,6 +273,12 @@ footer {
 	}
 	#menu { 
 		display: none;
+	}
+	main h2 { 
+		margin: 0 auto;
+		padding: 1.5rem;
+		color: red;
+
 	}
 
 	main figure img { 
@@ -309,7 +316,7 @@ footer {
 @media screen and (max-width: 40em) {
 	
 	
-	main {
+	main .figure{
 		display: grid;
 		grid-template-columns: 1fr;
 		align-items: center;
