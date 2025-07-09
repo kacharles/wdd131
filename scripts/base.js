@@ -2,7 +2,7 @@ const lmf = document.querySelector("#lmf");
 const year = document.querySelector("#year");
 lmf.textContent = document.lastModified;
 today = new Date(); 
-year.innerHTML = `&copy; ${today.getFullYear()} 🌴 Charles Alfred Koenig 🌴 Nicosia, Cyprus.`;
+year.innerHTML = `&copy; ${today.getFullYear()} 🌴 Charles Alfred Koenig 🌴 Monrovia, Liberia.`;
 
 // Mobile menu styling..... 
 

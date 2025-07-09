@@ -14,10 +14,23 @@ header {
     color: white;
     align-content: center;
 }
+header .nav-brand { 
+    font-size:30px;
+    /* padding: 1rem; */
+    /* color: orange; */
+}
 
-header h1 span {
+header h1 {
     color: #ffff00;
     font-size: x-large;
+    /* padding: 1rem; */
+    /* font-size: 16px; */
+    display: inline;
+}
+
+heading div { 
+    background-color: grey;
+    padding: 1rem;
 }
 /* Header styling ends here */
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -77,7 +90,7 @@ main {
     border-radius: 12px;
     overflow: hidden;
 }
-.card h1 {
+.card h2 {
     align-items: center;
     color: white;
     background-color: rgba(0, 0, 128);
@@ -103,7 +116,7 @@ main {
     column-gap: 10px;
 }
 
-.card h2 { 
+.card h3 { 
     display: block;
     text-align: center;
     border-bottom: 2px solid rgb(0, 0, 0, 0.1);
