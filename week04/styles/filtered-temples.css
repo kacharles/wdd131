@@ -17,7 +17,7 @@ header {
 	
 }
 
-header, .mob-menu, main, footer { 
+header, .mob-menu, main, h1, footer { 
 	max-width: 1500px;
 	margin: 0 auto;
 }
