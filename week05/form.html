@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Charles Alfred Koenig">
+    <meta name="description" content="Displays an image gallary of temples">
+    <title>Responsive Temple</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <div>
+            <a id="brand" href="#">Web Form</a>
+        </div>
+        
+        
+        <nav class="navbar">
+            <a id="menu" href="#">☰</a>
+            
+	        <ul class="nav-menu">
+		        <li class="nav-items"><a id="home" href="#">Home</a></li>
+		        <li class="nav-items"><a id="old" href="#">Old</a></li>
+		        <li class="nav-items"><a id="newt" href="#">New</a></li>
+		        <li class="nav-items"><a id="small" href="#">Small</a></li>
+		        <li class="nav-items"><a id="large" href="#">Large</a></li>
+	        </ul>
+        </nav>
+    </header>
+    
+    <div id="mob-div">
+        <ul class="mob-menu">
+            <li class="nav-items"><a id="mhome" href="#">Home</a></li>
+            <li class="nav-items"><a id="mold" href="#">Old</a></li>
+            <li class="nav-items"><a id="mnew" href="#">New</a></li>
+            <li class="nav-items"><a id="msmall" href="#">Small</a></li>
+            <li class="nav-items"><a id="mlarge" href="#">Large</a></li>
+        </ul>
+    </div>
+    <h1>Home</h1>
+    <main class="main-content">
+        <div class="form-section">
+            <form action="review.html" method="get">
+            
+
+                <label for="pn">Product Name<select name="pn" id="pn"></select></label>
+                <label for="rt">Overall Rating<input type="radio" name="" id=""></label>
+                <label for="doi">Date of Installation<input type="date" name="doi" id="doi"></label>
+                <p>Which features did you find useful in the product?</p>
+                <label for="durability"><input type="checkbox" name="durability" id="durability">Durability</label>
+                <label for="eou"><input type="checkbox" name="eou" id="eou">Ease of Use</label>
+                <label for="performance"><input type="checkbox" name="performance" id="performance">Performance</label>
+                <label for="design"><input type="checkbox" name="desgin" id="design">Design</label>
+                <label for="review"><textarea name="review" id="review"></textarea></label>
+                <label for="username">Your Name <a href="#">(Optional)</a><input type="text" name="username" id="username"></label>
+                <button id="pr">Post Review</button>
+
+
+            </form>
+        </div>
+    </main>
+        
+    <footer>
+        <div class="copyright">
+            <p id="currentYear"></p>
+        </div>
+
+        <div class="lastModification">
+            <p>Last Modification: <span class="lmf"></span></p>
+        </div>
+
+    </footer>
+</body>
+</html>

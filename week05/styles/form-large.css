@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px) {
+	nav ul { 
+		display: flex;
+	}
+	#menu { 
+		display: none;
+	}
+
+	main .temples-card {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	
+}
+
+@media screen and (min-width: 991px) { 
+	main .temples-card { 
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
