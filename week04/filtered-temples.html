@@ -12,33 +12,46 @@
 </head>
 <body>
     <header>
-        <a id="brand" href="#"><h1>Temple Album</h1></a>
+        <div>
+            <a id="brand" href="#">Temple Album</a>
+        </div>
+        
         
         <nav class="navbar">
-            <a id="menu" href="#"></a>
+            <a id="menu" href="#">☰</a>
             
 	        <ul class="nav-menu">
-		        <li class="nav-items"><a href="#">Home</a></li>
-		        <li class="nav-items"><a href="#">Old</a></li>
-		        <li class="nav-items"><a href="#">New</a></li>
-		        <li class="nav-items"><a href="#">Small</a></li>
-		        <li class="nav-items"><a href="#">Large</a></li>
+		        <li class="nav-items"><a id="home" href="#">Home</a></li>
+		        <li class="nav-items"><a id="old" href="#">Old</a></li>
+		        <li class="nav-items"><a id="newt" href="#">New</a></li>
+		        <li class="nav-items"><a id="small" href="#">Small</a></li>
+		        <li class="nav-items"><a id="large" href="#">Large</a></li>
 	        </ul>
         </nav>
     </header>
     
-    <div>
+    <div id="mob-div">
         <ul class="mob-menu">
-            <li class="nav-items"><a href="#">Home</a></li>
-            <li class="nav-items"><a href="#">Old</a></li>
-            <li class="nav-items"><a href="#">New</a></li>
-            <li class="nav-items"><a href="#">Small</a></li>
-            <li class="nav-items"><a href="#">Large</a></li>
+            <li class="nav-items"><a id="mhome" href="#">Home</a></li>
+            <li class="nav-items"><a id="mold" href="#">Old</a></li>
+            <li class="nav-items"><a id="mnew" href="#">New</a></li>
+            <li class="nav-items"><a id="msmall" href="#">Small</a></li>
+            <li class="nav-items"><a id="mlarge" href="#">Large</a></li>
         </ul>
     </div>
-    <h1 style="text-align: center; padding-top: 1rem; color: #000080">Home</h1>
+    <h1>Home</h1>
     <main class="main-content">
-        <div class="res-grid"></div>
+        <div class="temples-card">
+            <!-- <div class="temple-card">
+                <h2 id="templeName">Aba Nigeria</h2>
+                <div id="location">Location: <span>Alba, Nigeria</span></div>
+                <div class="dedication">Dedicated: <span>2005, August, 7</span></div>
+                <div id="size">Size: <span>11500 sq ft</span></div>
+            </div> -->
+            <!-- <figure>
+                <img src="" alt="">
+            </figure> -->
+        </div>
     </main>
     <footer>
         <div class="copyright">
