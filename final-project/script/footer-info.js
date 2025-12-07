@@ -2,7 +2,7 @@
 const copyRight = document.querySelector("#copy-right"); 
 const lastModified = document.querySelector("#lmf"); 
 const today = new Date(); 
-
+const nothing = document.querySelector("nothing");
 copyRight.innerHTML = `&copy; ${today.getFullYear()} | BYU-Pathway Application Guide | Charles A. Koenig`; 
 lastModified.innerHTML = `Last Modified - ${document.lastModified}`;
 
