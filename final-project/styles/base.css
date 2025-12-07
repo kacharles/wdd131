@@ -249,17 +249,32 @@ footer {
     display: grid;
     grid-template-columns: auto 44px;
 }
-#modal p { 
+/* #modal p { 
     font-size: 20px;
     margin-top: 30px;
-}
-#modal button { 
+} */
+ #modal p { 
+    font-size: 20px; 
+    margin-top: 30px;
+ }
+/* #modal button { 
     background-color: red;
     color: white;
     padding: 0.5rem;
     border-radius: 5px;
     border: 1px solid red;
-}
+} */
+ #modal button { 
+    color: black;
+    font-size: 1.3rem;
+    border: 0px;
+    padding: 0.5rem;
+ }
+ #modal button:hover { 
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+ }
 
 @media screen and (min-width: 767px){
     #toggle-btn {
